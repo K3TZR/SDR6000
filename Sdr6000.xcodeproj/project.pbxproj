@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F5797002A2B919700E93D97 /* Sdr6000App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5796FF2A2B919700E93D97 /* Sdr6000App.swift */; };
+		9F5797022A2B919700E93D97 /* SdrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5797012A2B919700E93D97 /* SdrView.swift */; };
+		9F5797042A2B919800E93D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5797032A2B919800E93D97 /* Assets.xcassets */; };
+		9F5797072A2B919800E93D97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5797062A2B919800E93D97 /* Preview Assets.xcassets */; };
+		9F5797122A2B924300E93D97 /* SdrCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5797112A2B924300E93D97 /* SdrCore.swift */; };
+		9F5797152A2B948A00E93D97 /* FlexApi in Frameworks */ = {isa = PBXBuildFile; productRef = 9F5797142A2B948A00E93D97 /* FlexApi */; };
+		9F5797172A2B948A00E93D97 /* FlexErrors in Frameworks */ = {isa = PBXBuildFile; productRef = 9F5797162A2B948A00E93D97 /* FlexErrors */; };
+		9F5797192A2B948A00E93D97 /* Listener in Frameworks */ = {isa = PBXBuildFile; productRef = 9F5797182A2B948A00E93D97 /* Listener */; };
+		9F57971D2A2B948A00E93D97 /* Tcp in Frameworks */ = {isa = PBXBuildFile; productRef = 9F57971C2A2B948A00E93D97 /* Tcp */; };
+		9F57971F2A2B948A00E93D97 /* Udp in Frameworks */ = {isa = PBXBuildFile; productRef = 9F57971E2A2B948A00E93D97 /* Udp */; };
+		9F5797212A2B948A00E93D97 /* Vita in Frameworks */ = {isa = PBXBuildFile; productRef = 9F5797202A2B948A00E93D97 /* Vita */; };
+		9F7146882A2C2DF9003A053A /* MonitorControl in Frameworks */ = {isa = PBXBuildFile; productRef = 9F7146872A2C2DF9003A053A /* MonitorControl */; };
+		9F8AB3092B2E0E2D00AB1D2E /* AudioPopover in Frameworks */ = {isa = PBXBuildFile; productRef = 9F8AB3082B2E0E2D00AB1D2E /* AudioPopover */; };
+		9FCB2F1F2AF001DE00DB0033 /* Panafall in Frameworks */ = {isa = PBXBuildFile; productRef = 9FCB2F1E2AF001DE00DB0033 /* Panafall */; };
+		9FCB2F272AF0030800DB0033 /* SettingsPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 9FCB2F262AF0030800DB0033 /* SettingsPanel */; };
+		9FCB2F292AF0033500DB0033 /* SidePanel in Frameworks */ = {isa = PBXBuildFile; productRef = 9FCB2F282AF0033500DB0033 /* SidePanel */; };
+		9FD829412AF277EB002EC81C /* ClientSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 9FD829402AF277EB002EC81C /* ClientSheet */; };
+		9FD829432AF277EB002EC81C /* LoginSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 9FD829422AF277EB002EC81C /* LoginSheet */; };
+		9FD829452AF277EB002EC81C /* PickerSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 9FD829442AF277EB002EC81C /* PickerSheet */; };
+		9FD8294C2AF5E97E002EC81C /* SdrModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD8294B2AF5E97E002EC81C /* SdrModel.swift */; };
+		9FEEC6D12B17E1F30065A223 /* Dax2Panel in Frameworks */ = {isa = PBXBuildFile; productRef = 9FEEC6D02B17E1F30065A223 /* Dax2Panel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F5796FC2A2B919700E93D97 /* Sdr6000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sdr6000.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5796FF2A2B919700E93D97 /* Sdr6000App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sdr6000App.swift; sourceTree = "<group>"; };
+		9F5797012A2B919700E93D97 /* SdrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdrView.swift; sourceTree = "<group>"; };
+		9F5797032A2B919800E93D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F5797062A2B919800E93D97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F5797082A2B919800E93D97 /* Sdr6000.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sdr6000.entitlements; sourceTree = "<group>"; };
+		9F5797112A2B924300E93D97 /* SdrCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdrCore.swift; sourceTree = "<group>"; };
+		9FD8294B2AF5E97E002EC81C /* SdrModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdrModel.swift; sourceTree = "<group>"; };
+		9FF9BE172A34071E00BEB4D9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F5796F92A2B919700E93D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEEC6D12B17E1F30065A223 /* Dax2Panel in Frameworks */,
+				9FCB2F1F2AF001DE00DB0033 /* Panafall in Frameworks */,
+				9FCB2F272AF0030800DB0033 /* SettingsPanel in Frameworks */,
+				9F5797212A2B948A00E93D97 /* Vita in Frameworks */,
+				9FD829452AF277EB002EC81C /* PickerSheet in Frameworks */,
+				9F57971D2A2B948A00E93D97 /* Tcp in Frameworks */,
+				9F57971F2A2B948A00E93D97 /* Udp in Frameworks */,
+				9F8AB3092B2E0E2D00AB1D2E /* AudioPopover in Frameworks */,
+				9F7146882A2C2DF9003A053A /* MonitorControl in Frameworks */,
+				9F5797172A2B948A00E93D97 /* FlexErrors in Frameworks */,
+				9FD829412AF277EB002EC81C /* ClientSheet in Frameworks */,
+				9F5797152A2B948A00E93D97 /* FlexApi in Frameworks */,
+				9F5797192A2B948A00E93D97 /* Listener in Frameworks */,
+				9FD829432AF277EB002EC81C /* LoginSheet in Frameworks */,
+				9FCB2F292AF0033500DB0033 /* SidePanel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F5796F32A2B919700E93D97 = {
+			isa = PBXGroup;
+			children = (
+				9F5796FE2A2B919700E93D97 /* Sdr6000 */,
+				9F5796FD2A2B919700E93D97 /* Products */,
+				9F5797372A2BCD0C00E93D97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5796FD2A2B919700E93D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F5796FC2A2B919700E93D97 /* Sdr6000.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F5796FE2A2B919700E93D97 /* Sdr6000 */ = {
+			isa = PBXGroup;
+			children = (
+				9F5797032A2B919800E93D97 /* Assets.xcassets */,
+				9F5797052A2B919800E93D97 /* Preview Content */,
+				9FF9BE172A34071E00BEB4D9 /* README.md */,
+				9F5797082A2B919800E93D97 /* Sdr6000.entitlements */,
+				9F5796FF2A2B919700E93D97 /* Sdr6000App.swift */,
+				9F5797112A2B924300E93D97 /* SdrCore.swift */,
+				9FD8294B2AF5E97E002EC81C /* SdrModel.swift */,
+				9F5797012A2B919700E93D97 /* SdrView.swift */,
+			);
+			path = Sdr6000;
+			sourceTree = "<group>";
+		};
+		9F5797052A2B919800E93D97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F5797062A2B919800E93D97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F5797372A2BCD0C00E93D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F5796FB2A2B919700E93D97 /* Sdr6000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F57970B2A2B919800E93D97 /* Build configuration list for PBXNativeTarget "Sdr6000" */;
+			buildPhases = (
+				9F5796F82A2B919700E93D97 /* Sources */,
+				9F5796F92A2B919700E93D97 /* Frameworks */,
+				9F5796FA2A2B919700E93D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sdr6000;
+			packageProductDependencies = (
+				9F5797142A2B948A00E93D97 /* FlexApi */,
+				9F5797162A2B948A00E93D97 /* FlexErrors */,
+				9F5797182A2B948A00E93D97 /* Listener */,
+				9F57971C2A2B948A00E93D97 /* Tcp */,
+				9F57971E2A2B948A00E93D97 /* Udp */,
+				9F5797202A2B948A00E93D97 /* Vita */,
+				9F7146872A2C2DF9003A053A /* MonitorControl */,
+				9FCB2F1E2AF001DE00DB0033 /* Panafall */,
+				9FCB2F262AF0030800DB0033 /* SettingsPanel */,
+				9FCB2F282AF0033500DB0033 /* SidePanel */,
+				9FD829402AF277EB002EC81C /* ClientSheet */,
+				9FD829422AF277EB002EC81C /* LoginSheet */,
+				9FD829442AF277EB002EC81C /* PickerSheet */,
+				9FEEC6D02B17E1F30065A223 /* Dax2Panel */,
+				9F8AB3082B2E0E2D00AB1D2E /* AudioPopover */,
+			);
+			productName = Sdr6000;
+			productReference = 9F5796FC2A2B919700E93D97 /* Sdr6000.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F5796F42A2B919700E93D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9F5796FB2A2B919700E93D97 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F5796F72A2B919700E93D97 /* Build configuration list for PBXProject "Sdr6000" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F5796F32A2B919700E93D97;
+			packageReferences = (
+				9F5797132A2B948A00E93D97 /* XCRemoteSwiftPackageReference "ApiFeatures" */,
+				9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */,
+			);
+			productRefGroup = 9F5796FD2A2B919700E93D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F5796FB2A2B919700E93D97 /* Sdr6000 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F5796FA2A2B919700E93D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5797072A2B919800E93D97 /* Preview Assets.xcassets in Resources */,
+				9F5797042A2B919800E93D97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F5796F82A2B919700E93D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5797122A2B924300E93D97 /* SdrCore.swift in Sources */,
+				9F5797022A2B919700E93D97 /* SdrView.swift in Sources */,
+				9F5797002A2B919700E93D97 /* Sdr6000App.swift in Sources */,
+				9FD8294C2AF5E97E002EC81C /* SdrModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F5797092A2B919800E93D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F57970A2A2B919800E93D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9F57970C2A2B919800E93D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sdr6000/Sdr6000.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Sdr6000/Preview Content\"";
+				DEVELOPMENT_TEAM = EE5B8TYXGA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 3.5;
+				PRODUCT_BUNDLE_IDENTIFIER = net.k3tzr.Sdr6000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9F57970D2A2B919800E93D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sdr6000/Sdr6000.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Sdr6000/Preview Content\"";
+				DEVELOPMENT_TEAM = EE5B8TYXGA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 3.5;
+				PRODUCT_BUNDLE_IDENTIFIER = net.k3tzr.Sdr6000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F5796F72A2B919700E93D97 /* Build configuration list for PBXProject "Sdr6000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5797092A2B919800E93D97 /* Debug */,
+				9F57970A2A2B919800E93D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F57970B2A2B919800E93D97 /* Build configuration list for PBXNativeTarget "Sdr6000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F57970C2A2B919800E93D97 /* Debug */,
+				9F57970D2A2B919800E93D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F5797132A2B948A00E93D97 /* XCRemoteSwiftPackageReference "ApiFeatures" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/K3TZR/ApiFeatures.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/K3TZR/ViewFeatures.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F5797142A2B948A00E93D97 /* FlexApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5797132A2B948A00E93D97 /* XCRemoteSwiftPackageReference "ApiFeatures" */;
+			productName = FlexApi;
+		};
+		9F5797162A2B948A00E93D97 /* FlexErrors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5797132A2B948A00E93D97 /* XCRemoteSwiftPackageReference "ApiFeatures" */;
+			productName = FlexErrors;
+		};
+		9F5797182A2B948A00E93D97 /* Listener */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5797132A2B948A00E93D97 /* XCRemoteSwiftPackageReference "ApiFeatures" */;
+			productName = Listener;
+		};
+		9F57971C2A2B948A00E93D97 /* Tcp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5797132A2B948A00E93D97 /* XCRemoteSwiftPackageReference "ApiFeatures" */;
+			productName = Tcp;
+		};
+		9F57971E2A2B948A00E93D97 /* Udp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5797132A2B948A00E93D97 /* XCRemoteSwiftPackageReference "ApiFeatures" */;
+			productName = Udp;
+		};
+		9F5797202A2B948A00E93D97 /* Vita */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5797132A2B948A00E93D97 /* XCRemoteSwiftPackageReference "ApiFeatures" */;
+			productName = Vita;
+		};
+		9F7146872A2C2DF9003A053A /* MonitorControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */;
+			productName = MonitorControl;
+		};
+		9F8AB3082B2E0E2D00AB1D2E /* AudioPopover */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioPopover;
+		};
+		9FCB2F1E2AF001DE00DB0033 /* Panafall */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */;
+			productName = Panafall;
+		};
+		9FCB2F262AF0030800DB0033 /* SettingsPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */;
+			productName = SettingsPanel;
+		};
+		9FCB2F282AF0033500DB0033 /* SidePanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */;
+			productName = SidePanel;
+		};
+		9FD829402AF277EB002EC81C /* ClientSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */;
+			productName = ClientSheet;
+		};
+		9FD829422AF277EB002EC81C /* LoginSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */;
+			productName = LoginSheet;
+		};
+		9FD829442AF277EB002EC81C /* PickerSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */;
+			productName = PickerSheet;
+		};
+		9FEEC6D02B17E1F30065A223 /* Dax2Panel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F71467E2A2C2DF9003A053A /* XCRemoteSwiftPackageReference "ViewFeatures" */;
+			productName = Dax2Panel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9F5796F42A2B919700E93D97 /* Project object */;
+}
