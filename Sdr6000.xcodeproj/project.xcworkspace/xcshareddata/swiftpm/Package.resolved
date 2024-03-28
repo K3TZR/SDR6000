@@ -6,7 +6,7 @@
       "location" : "https://github.com/K3TZR/ApiFeatures.git",
       "state" : {
         "branch" : "main",
-        "revision" : "a693b3cdc3594a7f14beda91d07bdf1f150afab3"
+        "revision" : "cd5b8a2aa6a2859bc1f7abc3f55ba9ed8518881a"
       }
     },
     {
@@ -19,12 +19,21 @@
       }
     },
     {
+      "identity" : "commonfeatures",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/K3TZR/CommonFeatures.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ec9d7cfc3586d5631db6b3ab436ecadee8591378"
+      }
+    },
+    {
       "identity" : "customcontrols",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/K3TZR/CustomControls.git",
       "state" : {
         "branch" : "main",
-        "revision" : "e7d062b36d611ef2d36d2dd356f1b2976ff42152"
+        "revision" : "13bfa9913ac704069b2bd480a257306f1ce3fa35"
       }
     },
     {
@@ -61,6 +70,24 @@
       "state" : {
         "revision" : "6ad4ea24b01559dde0773e3d091f1b9e36175036",
         "version" : "509.0.2"
+      }
+    },
+    {
+      "identity" : "utilityfeatures",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/K3TZR/UtilityFeatures.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9418be2021a99c705b5281bac0b79ffaa5dba4c4"
+      }
+    },
+    {
+      "identity" : "viewfeatures",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/K3TZR/ViewFeatures.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1b8ee41ba34a9e9ea7c5a1f555a56d7c59625994"
       }
     },
     {

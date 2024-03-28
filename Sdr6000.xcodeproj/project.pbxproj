@@ -71,6 +71,7 @@
 		9F5796F32A2B919700E93D97 = {
 			isa = PBXGroup;
 			children = (
+				9FF9BE172A34071E00BEB4D9 /* README.md */,
 				9F5796FE2A2B919700E93D97 /* Sdr6000 */,
 				9F5796FD2A2B919700E93D97 /* Products */,
 				9F5797372A2BCD0C00E93D97 /* Frameworks */,
@@ -90,7 +91,6 @@
 			children = (
 				9F5797032A2B919800E93D97 /* Assets.xcassets */,
 				9F5797052A2B919800E93D97 /* Preview Content */,
-				9FF9BE172A34071E00BEB4D9 /* README.md */,
 				9F5797082A2B919800E93D97 /* Sdr6000.entitlements */,
 				9F5796FF2A2B919700E93D97 /* Sdr6000App.swift */,
 				9F5797112A2B924300E93D97 /* SdrCore.swift */,
@@ -355,7 +355,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = net.k3tzr.Sdr6000;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -385,7 +385,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = net.k3tzr.Sdr6000;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
