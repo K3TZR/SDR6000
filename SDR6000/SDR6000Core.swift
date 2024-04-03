@@ -1,31 +1,53 @@
 //
-//  Sdr6000Core.swift
-//  Sdr6000
+//  SDR6000Core.swift
+//  SDR6000
 //
 //  Created by Douglas Adams on 6/3/23.
 //
 
-//import ComposableArchitecture
-//import SwiftUI
-//
-//import ClientSheet
-//import FlexApi
-//import Listener
-//import LoginSheet
-//import OpusPlayer
-//import PickerSheet
-//import SettingsModel
-//import SharedModel
-//import XCGWrapper
-//
-//
-//public enum ConnectionStatus {
-//  case disconnected
-//  case inProcess
-//  case connected
-//}
-//
-//
+import ComposableArchitecture
+import SwiftUI
+
+import ClientFeature
+import FlexApiFeature
+import ListenerFeature
+import LoginFeature
+import RxAudioFeature
+import PickerFeature
+import SettingsFeature
+import SharedFeature
+import XCGLogFeature
+
+
+public enum ConnectionStatus {
+  case disconnected
+  case inProcess
+  case connected
+}
+
+public struct SDR6000: Reducer {
+  
+  public init() { }
+
+  public struct State {
+  }
+  
+    public enum Action: Equatable {
+      // initialization
+      case onAppear
+  }
+  
+  public var body: some Reducer<State, Action> {
+    Reduce { state, action in
+      switch action {
+      case .onAppear:
+        return .none
+      }
+    }
+  }
+
+}
+
 //public struct Sdr6000: Reducer {
 //    
 //  private var _settingsModel = SettingsModel.shared
@@ -36,7 +58,6 @@
 //  // ----------------------------------------------------------------------------
 //  // MARK: - Module Initialization
 //  
-//  public init() { }
 //  
 //  // ----------------------------------------------------------------------------
 //  // MARK: - State
